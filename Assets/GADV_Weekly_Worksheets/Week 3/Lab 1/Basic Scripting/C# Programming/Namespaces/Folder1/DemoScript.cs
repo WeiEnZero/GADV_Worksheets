@@ -1,10 +1,18 @@
 using UnityEngine;
 
-namespace ProjectNamespace1
+namespace ProjectNamespace2
 {
     public class DemoScript : MonoBehaviour
     {
-        // Other code
+        // Start is called once before the first execution of Update after the MonoBehaviour is created
+        void Start()
+        {
+
+        }
+        // Update is called once per frame
+        void Update()
+        {
+
+        }
     }
 }
-
