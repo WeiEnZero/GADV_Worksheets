@@ -1,5 +1,6 @@
 using JetBrains.Annotations;
 using System;
+using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEditor.SearchService;
 using UnityEngine;
@@ -7,7 +8,7 @@ using UnityEngine.Rendering;
 
 public class Main : MonoBehaviour
 { 
-    public MagicChest chest;
+    //public TreasureChest chest;
 
     void Start()
     {
@@ -23,9 +24,9 @@ public class Main : MonoBehaviour
         //ScoreTracker scoreTracker = new ScoreTracker();
         //scoreTracker.GetScore();
 
-        chest.Unlock();
-        chest.Shake();
-        
-    }
+        //chest.Unlock(true, true);
+        //chest.Unlock();
+        //chest.Shake();
 
+    }
 }
